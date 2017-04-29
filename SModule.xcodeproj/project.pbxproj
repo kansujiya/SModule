@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		502545991EB523BC00CB680E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545981EB523BC00CB680E /* AppDelegate.swift */; };
-		5025459B1EB523BC00CB680E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025459A1EB523BC00CB680E /* ViewController.swift */; };
-		5025459E1EB523BC00CB680E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5025459C1EB523BC00CB680E /* Main.storyboard */; };
 		502545A11EB523BC00CB680E /* SModule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5025459F1EB523BC00CB680E /* SModule.xcdatamodeld */; };
-		502545A31EB523BC00CB680E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502545A21EB523BC00CB680E /* Assets.xcassets */; };
-		502545A61EB523BC00CB680E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502545A41EB523BC00CB680E /* LaunchScreen.storyboard */; };
 		502545B11EB523BC00CB680E /* SModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545B01EB523BC00CB680E /* SModuleTests.swift */; };
+		502545C21EB5251200CB680E /* HomeAssest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502545C11EB5251200CB680E /* HomeAssest.xcassets */; };
+		502545C61EB5256600CB680E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545C51EB5256600CB680E /* HomeViewController.swift */; };
+		502545C81EB5257B00CB680E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545C71EB5257B00CB680E /* HomeView.swift */; };
+		502545CA1EB526B500CB680E /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502545C91EB526B500CB680E /* HomeStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +29,15 @@
 /* Begin PBXFileReference section */
 		502545951EB523BC00CB680E /* SModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		502545981EB523BC00CB680E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5025459A1EB523BC00CB680E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5025459D1EB523BC00CB680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		502545A01EB523BC00CB680E /* SModule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SModule.xcdatamodel; sourceTree = "<group>"; };
-		502545A21EB523BC00CB680E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		502545A51EB523BC00CB680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		502545A71EB523BC00CB680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		502545AC1EB523BC00CB680E /* SModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		502545B01EB523BC00CB680E /* SModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SModuleTests.swift; sourceTree = "<group>"; };
 		502545B21EB523BC00CB680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502545C11EB5251200CB680E /* HomeAssest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeAssest.xcassets; sourceTree = "<group>"; };
+		502545C51EB5256600CB680E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		502545C71EB5257B00CB680E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		502545C91EB526B500CB680E /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +79,8 @@
 		502545971EB523BC00CB680E /* SModule */ = {
 			isa = PBXGroup;
 			children = (
+				502545BB1EB5245E00CB680E /* Home */,
 				502545981EB523BC00CB680E /* AppDelegate.swift */,
-				5025459A1EB523BC00CB680E /* ViewController.swift */,
-				5025459C1EB523BC00CB680E /* Main.storyboard */,
-				502545A21EB523BC00CB680E /* Assets.xcassets */,
-				502545A41EB523BC00CB680E /* LaunchScreen.storyboard */,
 				502545A71EB523BC00CB680E /* Info.plist */,
 				5025459F1EB523BC00CB680E /* SModule.xcdatamodeld */,
 			);
@@ -97,6 +94,57 @@
 				502545B21EB523BC00CB680E /* Info.plist */,
 			);
 			path = SModuleTests;
+			sourceTree = "<group>";
+		};
+		502545BB1EB5245E00CB680E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				502545BC1EB524DC00CB680E /* Assest */,
+				502545BD1EB524DC00CB680E /* Model */,
+				502545BE1EB524DC00CB680E /* StroryBoard */,
+				502545BF1EB524DC00CB680E /* View */,
+				502545C01EB524DC00CB680E /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		502545BC1EB524DC00CB680E /* Assest */ = {
+			isa = PBXGroup;
+			children = (
+				502545C11EB5251200CB680E /* HomeAssest.xcassets */,
+			);
+			path = Assest;
+			sourceTree = "<group>";
+		};
+		502545BD1EB524DC00CB680E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		502545BE1EB524DC00CB680E /* StroryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				502545C91EB526B500CB680E /* HomeStoryboard.storyboard */,
+			);
+			path = StroryBoard;
+			sourceTree = "<group>";
+		};
+		502545BF1EB524DC00CB680E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				502545C71EB5257B00CB680E /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		502545C01EB524DC00CB680E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				502545C51EB5256600CB680E /* HomeViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +230,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				502545A61EB523BC00CB680E /* LaunchScreen.storyboard in Resources */,
-				502545A31EB523BC00CB680E /* Assets.xcassets in Resources */,
-				5025459E1EB523BC00CB680E /* Main.storyboard in Resources */,
+				502545CA1EB526B500CB680E /* HomeStoryboard.storyboard in Resources */,
+				502545C21EB5251200CB680E /* HomeAssest.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				502545A11EB523BC00CB680E /* SModule.xcdatamodeld in Sources */,
-				5025459B1EB523BC00CB680E /* ViewController.swift in Sources */,
 				502545991EB523BC00CB680E /* AppDelegate.swift in Sources */,
+				502545C81EB5257B00CB680E /* HomeView.swift in Sources */,
+				502545C61EB5256600CB680E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,25 +273,6 @@
 			targetProxy = 502545AD1EB523BC00CB680E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5025459C1EB523BC00CB680E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5025459D1EB523BC00CB680E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		502545A41EB523BC00CB680E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				502545A51EB523BC00CB680E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		502545B31EB523BC00CB680E /* Debug */ = {
@@ -408,6 +437,7 @@
 				502545B71EB523BC00CB680E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502545B81EB523BC00CB680E /* Build configuration list for PBXNativeTarget "SModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +446,7 @@
 				502545BA1EB523BC00CB680E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
