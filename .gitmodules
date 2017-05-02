@@ -1,3 +1,6 @@
 [submodule "SUIKit"]
 	path = SUIKit
 	url = https://github.com/kansujiya/SUIKit.git
+[submodule "SConnect"]
+	path = SConnect
+	url = https://github.com/kansujiya/SConnect.git
