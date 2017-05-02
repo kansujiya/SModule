@@ -14,6 +14,70 @@
 		502545C61EB5256600CB680E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545C51EB5256600CB680E /* HomeViewController.swift */; };
 		502545C81EB5257B00CB680E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502545C71EB5257B00CB680E /* HomeView.swift */; };
 		502545CA1EB526B500CB680E /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502545C91EB526B500CB680E /* HomeStoryboard.storyboard */; };
+		50C71DDC1EB8D71100C1562A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D771EB8D71100C1562A /* Podfile */; };
+		50C71DDD1EB8D71100C1562A /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D781EB8D71100C1562A /* Podfile.lock */; };
+		50C71DDE1EB8D71100C1562A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D7B1EB8D71100C1562A /* LICENSE */; };
+		50C71DDF1EB8D71100C1562A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D7C1EB8D71100C1562A /* README.md */; };
+		50C71DE01EB8D71100C1562A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D7E1EB8D71100C1562A /* AFError.swift */; };
+		50C71DE11EB8D71100C1562A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D7F1EB8D71100C1562A /* Alamofire.swift */; };
+		50C71DE21EB8D71100C1562A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D801EB8D71100C1562A /* DispatchQueue+Alamofire.swift */; };
+		50C71DE31EB8D71100C1562A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D811EB8D71100C1562A /* MultipartFormData.swift */; };
+		50C71DE41EB8D71100C1562A /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D821EB8D71100C1562A /* NetworkReachabilityManager.swift */; };
+		50C71DE51EB8D71100C1562A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D831EB8D71100C1562A /* Notifications.swift */; };
+		50C71DE61EB8D71100C1562A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D841EB8D71100C1562A /* ParameterEncoding.swift */; };
+		50C71DE71EB8D71100C1562A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D851EB8D71100C1562A /* Request.swift */; };
+		50C71DE81EB8D71100C1562A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D861EB8D71100C1562A /* Response.swift */; };
+		50C71DE91EB8D71100C1562A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D871EB8D71100C1562A /* ResponseSerialization.swift */; };
+		50C71DEA1EB8D71100C1562A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D881EB8D71100C1562A /* Result.swift */; };
+		50C71DEB1EB8D71100C1562A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D891EB8D71100C1562A /* ServerTrustPolicy.swift */; };
+		50C71DEC1EB8D71100C1562A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D8A1EB8D71100C1562A /* SessionDelegate.swift */; };
+		50C71DED1EB8D71100C1562A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D8B1EB8D71100C1562A /* SessionManager.swift */; };
+		50C71DEE1EB8D71100C1562A /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D8C1EB8D71100C1562A /* TaskDelegate.swift */; };
+		50C71DEF1EB8D71100C1562A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D8D1EB8D71100C1562A /* Timeline.swift */; };
+		50C71DF01EB8D71100C1562A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D8E1EB8D71100C1562A /* Validation.swift */; };
+		50C71DF11EB8D71100C1562A /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D8F1EB8D71100C1562A /* Manifest.lock */; };
+		50C71DF21EB8D71100C1562A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D941EB8D71100C1562A /* LICENSE */; };
+		50C71DF31EB8D71100C1562A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D951EB8D71100C1562A /* README.md */; };
+		50C71DF41EB8D71100C1562A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D971EB8D71100C1562A /* SwiftyJSON.swift */; };
+		50C71DF51EB8D71100C1562A /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C71D9A1EB8D71100C1562A /* Alamofire-dummy.m */; };
+		50C71DF61EB8D71100C1562A /* Alamofire.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D9E1EB8D71100C1562A /* Alamofire.xcconfig */; };
+		50C71DF71EB8D71100C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71D9F1EB8D71100C1562A /* Info.plist */; };
+		50C71DF81EB8D71100C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DA11EB8D71100C1562A /* Info.plist */; };
+		50C71DF91EB8D71100C1562A /* Pods-SConnect-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DA21EB8D71100C1562A /* Pods-SConnect-acknowledgements.markdown */; };
+		50C71DFA1EB8D71100C1562A /* Pods-SConnect-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DA31EB8D71100C1562A /* Pods-SConnect-acknowledgements.plist */; };
+		50C71DFB1EB8D71100C1562A /* Pods-SConnect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DA41EB8D71100C1562A /* Pods-SConnect-dummy.m */; };
+		50C71DFC1EB8D71100C1562A /* Pods-SConnect-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DA51EB8D71100C1562A /* Pods-SConnect-resources.sh */; };
+		50C71DFD1EB8D71100C1562A /* Pods-SConnect.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DA71EB8D71100C1562A /* Pods-SConnect.debug.xcconfig */; };
+		50C71DFE1EB8D71100C1562A /* Pods-SConnect.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DA91EB8D71100C1562A /* Pods-SConnect.release.xcconfig */; };
+		50C71DFF1EB8D71100C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DAB1EB8D71100C1562A /* Info.plist */; };
+		50C71E001EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DAC1EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.markdown */; };
+		50C71E011EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DAD1EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.plist */; };
+		50C71E021EB8D71100C1562A /* Pods-SConnectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DAE1EB8D71100C1562A /* Pods-SConnectTests-dummy.m */; };
+		50C71E031EB8D71100C1562A /* Pods-SConnectTests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DAF1EB8D71100C1562A /* Pods-SConnectTests-frameworks.sh */; };
+		50C71E041EB8D71100C1562A /* Pods-SConnectTests-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DB01EB8D71100C1562A /* Pods-SConnectTests-resources.sh */; };
+		50C71E051EB8D71100C1562A /* Pods-SConnectTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DB21EB8D71100C1562A /* Pods-SConnectTests.debug.xcconfig */; };
+		50C71E061EB8D71100C1562A /* Pods-SConnectTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DB41EB8D71100C1562A /* Pods-SConnectTests.release.xcconfig */; };
+		50C71E071EB8D71100C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DB61EB8D71100C1562A /* Info.plist */; };
+		50C71E081EB8D71100C1562A /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DB71EB8D71100C1562A /* SwiftyJSON-dummy.m */; };
+		50C71E091EB8D71100C1562A /* SwiftyJSON.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DBB1EB8D71100C1562A /* SwiftyJSON.xcconfig */; };
+		50C71E0A1EB8D71100C1562A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DBC1EB8D71100C1562A /* README.md */; };
+		50C71E0B1EB8D71100C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DBE1EB8D71100C1562A /* Info.plist */; };
+		50C71E0C1EB8D71100C1562A /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DBF1EB8D71100C1562A /* SampleModel.swift */; };
+		50C71E0D1EB8D71100C1562A /* SConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DC11EB8D71100C1562A /* SConnectManager.swift */; };
+		50C71E0E1EB8D71100C1562A /* SConnectManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DC21EB8D71100C1562A /* SConnectManagerProtocol.swift */; };
+		50C71E0F1EB8D71100C1562A /* SConnectorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DC31EB8D71100C1562A /* SConnectorProtocol.swift */; };
+		50C71E101EB8D71100C1562A /* SConnect.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DC71EB8D71100C1562A /* SConnect.xcworkspace */; };
+		50C71E111EB8D71100C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DC91EB8D71100C1562A /* Info.plist */; };
+		50C71E121EB8D71200C1562A /* SConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DCA1EB8D71100C1562A /* SConnectTests.swift */; };
+		50C71E131EB8D71200C1562A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DCC1EB8D71100C1562A /* README.md */; };
+		50C71E141EB8D71200C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DCE1EB8D71100C1562A /* Info.plist */; };
+		50C71E151EB8D71200C1562A /* SViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DD01EB8D71100C1562A /* SViewProtocol.swift */; };
+		50C71E161EB8D71200C1562A /* SNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DD11EB8D71100C1562A /* SNavigationController.swift */; };
+		50C71E171EB8D71200C1562A /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DD31EB8D71100C1562A /* SView.swift */; };
+		50C71E181EB8D71200C1562A /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DD41EB8D71100C1562A /* SViewController.swift */; };
+		50C71E191EB8D71200C1562A /* SViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DD51EB8D71100C1562A /* SViewController.xib */; };
+		50C71E1A1EB8D71200C1562A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C71DDA1EB8D71100C1562A /* Info.plist */; };
+		50C71E1B1EB8D71200C1562A /* SUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C71DDB1EB8D71100C1562A /* SUIKitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +87,62 @@
 			proxyType = 1;
 			remoteGlobalIDString = 502545941EB523BC00CB680E;
 			remoteInfo = SModule;
+		};
+		50C71E201EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71D901EB8D71100C1562A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D71891A3D1442C42E39CB2DE50656930;
+			remoteInfo = Alamofire;
+		};
+		50C71E221EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71D901EB8D71100C1562A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1CE6DB39AAE540803D43B2A0C8594AD;
+			remoteInfo = "Pods-SConnect";
+		};
+		50C71E241EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71D901EB8D71100C1562A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69DA7763DB941579FFC602D82C203B7E;
+			remoteInfo = "Pods-SConnectTests";
+		};
+		50C71E261EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71D901EB8D71100C1562A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C30172FA22C8CD0EB6580CC805087CC7;
+			remoteInfo = SwiftyJSON;
+		};
+		50C71E2A1EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71DC41EB8D71100C1562A /* SConnect.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5029BF6D1EB38AB80040BE0B;
+			remoteInfo = SConnect;
+		};
+		50C71E2C1EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71DC41EB8D71100C1562A /* SConnect.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5029BF761EB38AB80040BE0B;
+			remoteInfo = SConnectTests;
+		};
+		50C71E301EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71DD61EB8D71100C1562A /* SUIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5025454F1EB4D8CA00CB680E;
+			remoteInfo = SUIKit;
+		};
+		50C71E321EB8D71200C1562A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C71DD61EB8D71100C1562A /* SUIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 502545581EB4D8CB00CB680E;
+			remoteInfo = SUIKitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +158,85 @@
 		502545C51EB5256600CB680E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		502545C71EB5257B00CB680E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		502545C91EB526B500CB680E /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		50C71D771EB8D71100C1562A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		50C71D781EB8D71100C1562A /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		50C71D7B1EB8D71100C1562A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		50C71D7C1EB8D71100C1562A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50C71D7E1EB8D71100C1562A /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		50C71D7F1EB8D71100C1562A /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		50C71D801EB8D71100C1562A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		50C71D811EB8D71100C1562A /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		50C71D821EB8D71100C1562A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		50C71D831EB8D71100C1562A /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		50C71D841EB8D71100C1562A /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		50C71D851EB8D71100C1562A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		50C71D861EB8D71100C1562A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		50C71D871EB8D71100C1562A /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		50C71D881EB8D71100C1562A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		50C71D891EB8D71100C1562A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		50C71D8A1EB8D71100C1562A /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		50C71D8B1EB8D71100C1562A /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		50C71D8C1EB8D71100C1562A /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		50C71D8D1EB8D71100C1562A /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		50C71D8E1EB8D71100C1562A /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		50C71D8F1EB8D71100C1562A /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		50C71D901EB8D71100C1562A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		50C71D941EB8D71100C1562A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		50C71D951EB8D71100C1562A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50C71D971EB8D71100C1562A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		50C71D9A1EB8D71100C1562A /* Alamofire-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		50C71D9B1EB8D71100C1562A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		50C71D9C1EB8D71100C1562A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		50C71D9D1EB8D71100C1562A /* Alamofire.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		50C71D9E1EB8D71100C1562A /* Alamofire.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		50C71D9F1EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DA11EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DA21EB8D71100C1562A /* Pods-SConnect-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-SConnect-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50C71DA31EB8D71100C1562A /* Pods-SConnect-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-SConnect-acknowledgements.plist"; sourceTree = "<group>"; };
+		50C71DA41EB8D71100C1562A /* Pods-SConnect-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-SConnect-dummy.m"; sourceTree = "<group>"; };
+		50C71DA51EB8D71100C1562A /* Pods-SConnect-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SConnect-resources.sh"; sourceTree = "<group>"; };
+		50C71DA61EB8D71100C1562A /* Pods-SConnect-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-SConnect-umbrella.h"; sourceTree = "<group>"; };
+		50C71DA71EB8D71100C1562A /* Pods-SConnect.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		50C71DA81EB8D71100C1562A /* Pods-SConnect.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SConnect.modulemap"; sourceTree = "<group>"; };
+		50C71DA91EB8D71100C1562A /* Pods-SConnect.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SConnect.release.xcconfig"; sourceTree = "<group>"; };
+		50C71DAB1EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DAC1EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-SConnectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50C71DAD1EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-SConnectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50C71DAE1EB8D71100C1562A /* Pods-SConnectTests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-SConnectTests-dummy.m"; sourceTree = "<group>"; };
+		50C71DAF1EB8D71100C1562A /* Pods-SConnectTests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SConnectTests-frameworks.sh"; sourceTree = "<group>"; };
+		50C71DB01EB8D71100C1562A /* Pods-SConnectTests-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SConnectTests-resources.sh"; sourceTree = "<group>"; };
+		50C71DB11EB8D71100C1562A /* Pods-SConnectTests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-SConnectTests-umbrella.h"; sourceTree = "<group>"; };
+		50C71DB21EB8D71100C1562A /* Pods-SConnectTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50C71DB31EB8D71100C1562A /* Pods-SConnectTests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SConnectTests.modulemap"; sourceTree = "<group>"; };
+		50C71DB41EB8D71100C1562A /* Pods-SConnectTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		50C71DB61EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DB71EB8D71100C1562A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		50C71DB81EB8D71100C1562A /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		50C71DB91EB8D71100C1562A /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		50C71DBA1EB8D71100C1562A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		50C71DBB1EB8D71100C1562A /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		50C71DBC1EB8D71100C1562A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50C71DBE1EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DBF1EB8D71100C1562A /* SampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		50C71DC01EB8D71100C1562A /* SConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SConnect.h; sourceTree = "<group>"; };
+		50C71DC11EB8D71100C1562A /* SConnectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SConnectManager.swift; sourceTree = "<group>"; };
+		50C71DC21EB8D71100C1562A /* SConnectManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SConnectManagerProtocol.swift; sourceTree = "<group>"; };
+		50C71DC31EB8D71100C1562A /* SConnectorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SConnectorProtocol.swift; sourceTree = "<group>"; };
+		50C71DC41EB8D71100C1562A /* SConnect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SConnect.xcodeproj; sourceTree = "<group>"; };
+		50C71DC71EB8D71100C1562A /* SConnect.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = SConnect.xcworkspace; sourceTree = "<group>"; };
+		50C71DC91EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DCA1EB8D71100C1562A /* SConnectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SConnectTests.swift; sourceTree = "<group>"; };
+		50C71DCC1EB8D71100C1562A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50C71DCE1EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DD01EB8D71100C1562A /* SViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewProtocol.swift; sourceTree = "<group>"; };
+		50C71DD11EB8D71100C1562A /* SNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNavigationController.swift; sourceTree = "<group>"; };
+		50C71DD21EB8D71100C1562A /* SUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIKit.h; sourceTree = "<group>"; };
+		50C71DD31EB8D71100C1562A /* SView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
+		50C71DD41EB8D71100C1562A /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		50C71DD51EB8D71100C1562A /* SViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SViewController.xib; sourceTree = "<group>"; };
+		50C71DD61EB8D71100C1562A /* SUIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SUIKit.xcodeproj; sourceTree = "<group>"; };
+		50C71DDA1EB8D71100C1562A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C71DDB1EB8D71100C1562A /* SUIKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUIKitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +278,7 @@
 		502545971EB523BC00CB680E /* SModule */ = {
 			isa = PBXGroup;
 			children = (
+				50C71D751EB8D71100C1562A /* Framework */,
 				502545BB1EB5245E00CB680E /* Home */,
 				502545981EB523BC00CB680E /* AppDelegate.swift */,
 				502545A71EB523BC00CB680E /* Info.plist */,
@@ -145,6 +345,257 @@
 				502545C51EB5256600CB680E /* HomeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		50C71D751EB8D71100C1562A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D761EB8D71100C1562A /* SConnect */,
+				50C71DCB1EB8D71100C1562A /* SUIKit */,
+			);
+			path = Framework;
+			sourceTree = SOURCE_ROOT;
+		};
+		50C71D761EB8D71100C1562A /* SConnect */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D771EB8D71100C1562A /* Podfile */,
+				50C71D781EB8D71100C1562A /* Podfile.lock */,
+				50C71D791EB8D71100C1562A /* Pods */,
+				50C71DBC1EB8D71100C1562A /* README.md */,
+				50C71DBD1EB8D71100C1562A /* SConnect */,
+				50C71DC41EB8D71100C1562A /* SConnect.xcodeproj */,
+				50C71DC71EB8D71100C1562A /* SConnect.xcworkspace */,
+				50C71DC81EB8D71100C1562A /* SConnectTests */,
+			);
+			path = SConnect;
+			sourceTree = "<group>";
+		};
+		50C71D791EB8D71100C1562A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D7A1EB8D71100C1562A /* Alamofire */,
+				50C71D8F1EB8D71100C1562A /* Manifest.lock */,
+				50C71D901EB8D71100C1562A /* Pods.xcodeproj */,
+				50C71D931EB8D71100C1562A /* SwiftyJSON */,
+				50C71D981EB8D71100C1562A /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		50C71D7A1EB8D71100C1562A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D7B1EB8D71100C1562A /* LICENSE */,
+				50C71D7C1EB8D71100C1562A /* README.md */,
+				50C71D7D1EB8D71100C1562A /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		50C71D7D1EB8D71100C1562A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D7E1EB8D71100C1562A /* AFError.swift */,
+				50C71D7F1EB8D71100C1562A /* Alamofire.swift */,
+				50C71D801EB8D71100C1562A /* DispatchQueue+Alamofire.swift */,
+				50C71D811EB8D71100C1562A /* MultipartFormData.swift */,
+				50C71D821EB8D71100C1562A /* NetworkReachabilityManager.swift */,
+				50C71D831EB8D71100C1562A /* Notifications.swift */,
+				50C71D841EB8D71100C1562A /* ParameterEncoding.swift */,
+				50C71D851EB8D71100C1562A /* Request.swift */,
+				50C71D861EB8D71100C1562A /* Response.swift */,
+				50C71D871EB8D71100C1562A /* ResponseSerialization.swift */,
+				50C71D881EB8D71100C1562A /* Result.swift */,
+				50C71D891EB8D71100C1562A /* ServerTrustPolicy.swift */,
+				50C71D8A1EB8D71100C1562A /* SessionDelegate.swift */,
+				50C71D8B1EB8D71100C1562A /* SessionManager.swift */,
+				50C71D8C1EB8D71100C1562A /* TaskDelegate.swift */,
+				50C71D8D1EB8D71100C1562A /* Timeline.swift */,
+				50C71D8E1EB8D71100C1562A /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		50C71D911EB8D71100C1562A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C71E211EB8D71200C1562A /* Alamofire.framework */,
+				50C71E231EB8D71200C1562A /* Pods_SConnect.framework */,
+				50C71E251EB8D71200C1562A /* Pods_SConnectTests.framework */,
+				50C71E271EB8D71200C1562A /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C71D931EB8D71100C1562A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D941EB8D71100C1562A /* LICENSE */,
+				50C71D951EB8D71100C1562A /* README.md */,
+				50C71D961EB8D71100C1562A /* Source */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		50C71D961EB8D71100C1562A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D971EB8D71100C1562A /* SwiftyJSON.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		50C71D981EB8D71100C1562A /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D991EB8D71100C1562A /* Alamofire */,
+				50C71DA01EB8D71100C1562A /* Pods-SConnect */,
+				50C71DAA1EB8D71100C1562A /* Pods-SConnectTests */,
+				50C71DB51EB8D71100C1562A /* SwiftyJSON */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		50C71D991EB8D71100C1562A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				50C71D9A1EB8D71100C1562A /* Alamofire-dummy.m */,
+				50C71D9B1EB8D71100C1562A /* Alamofire-prefix.pch */,
+				50C71D9C1EB8D71100C1562A /* Alamofire-umbrella.h */,
+				50C71D9D1EB8D71100C1562A /* Alamofire.modulemap */,
+				50C71D9E1EB8D71100C1562A /* Alamofire.xcconfig */,
+				50C71D9F1EB8D71100C1562A /* Info.plist */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		50C71DA01EB8D71100C1562A /* Pods-SConnect */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DA11EB8D71100C1562A /* Info.plist */,
+				50C71DA21EB8D71100C1562A /* Pods-SConnect-acknowledgements.markdown */,
+				50C71DA31EB8D71100C1562A /* Pods-SConnect-acknowledgements.plist */,
+				50C71DA41EB8D71100C1562A /* Pods-SConnect-dummy.m */,
+				50C71DA51EB8D71100C1562A /* Pods-SConnect-resources.sh */,
+				50C71DA61EB8D71100C1562A /* Pods-SConnect-umbrella.h */,
+				50C71DA71EB8D71100C1562A /* Pods-SConnect.debug.xcconfig */,
+				50C71DA81EB8D71100C1562A /* Pods-SConnect.modulemap */,
+				50C71DA91EB8D71100C1562A /* Pods-SConnect.release.xcconfig */,
+			);
+			path = "Pods-SConnect";
+			sourceTree = "<group>";
+		};
+		50C71DAA1EB8D71100C1562A /* Pods-SConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DAB1EB8D71100C1562A /* Info.plist */,
+				50C71DAC1EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.markdown */,
+				50C71DAD1EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.plist */,
+				50C71DAE1EB8D71100C1562A /* Pods-SConnectTests-dummy.m */,
+				50C71DAF1EB8D71100C1562A /* Pods-SConnectTests-frameworks.sh */,
+				50C71DB01EB8D71100C1562A /* Pods-SConnectTests-resources.sh */,
+				50C71DB11EB8D71100C1562A /* Pods-SConnectTests-umbrella.h */,
+				50C71DB21EB8D71100C1562A /* Pods-SConnectTests.debug.xcconfig */,
+				50C71DB31EB8D71100C1562A /* Pods-SConnectTests.modulemap */,
+				50C71DB41EB8D71100C1562A /* Pods-SConnectTests.release.xcconfig */,
+			);
+			path = "Pods-SConnectTests";
+			sourceTree = "<group>";
+		};
+		50C71DB51EB8D71100C1562A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DB61EB8D71100C1562A /* Info.plist */,
+				50C71DB71EB8D71100C1562A /* SwiftyJSON-dummy.m */,
+				50C71DB81EB8D71100C1562A /* SwiftyJSON-prefix.pch */,
+				50C71DB91EB8D71100C1562A /* SwiftyJSON-umbrella.h */,
+				50C71DBA1EB8D71100C1562A /* SwiftyJSON.modulemap */,
+				50C71DBB1EB8D71100C1562A /* SwiftyJSON.xcconfig */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		50C71DBD1EB8D71100C1562A /* SConnect */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DBE1EB8D71100C1562A /* Info.plist */,
+				50C71DBF1EB8D71100C1562A /* SampleModel.swift */,
+				50C71DC01EB8D71100C1562A /* SConnect.h */,
+				50C71DC11EB8D71100C1562A /* SConnectManager.swift */,
+				50C71DC21EB8D71100C1562A /* SConnectManagerProtocol.swift */,
+				50C71DC31EB8D71100C1562A /* SConnectorProtocol.swift */,
+			);
+			path = SConnect;
+			sourceTree = "<group>";
+		};
+		50C71DC51EB8D71100C1562A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C71E2B1EB8D71200C1562A /* SConnect.framework */,
+				50C71E2D1EB8D71200C1562A /* SConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C71DC81EB8D71100C1562A /* SConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DC91EB8D71100C1562A /* Info.plist */,
+				50C71DCA1EB8D71100C1562A /* SConnectTests.swift */,
+			);
+			path = SConnectTests;
+			sourceTree = "<group>";
+		};
+		50C71DCB1EB8D71100C1562A /* SUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DCC1EB8D71100C1562A /* README.md */,
+				50C71DCD1EB8D71100C1562A /* SUIKit */,
+				50C71DD61EB8D71100C1562A /* SUIKit.xcodeproj */,
+				50C71DD91EB8D71100C1562A /* SUIKitTests */,
+			);
+			path = SUIKit;
+			sourceTree = "<group>";
+		};
+		50C71DCD1EB8D71100C1562A /* SUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DCE1EB8D71100C1562A /* Info.plist */,
+				50C71DCF1EB8D71100C1562A /* Protocol */,
+				50C71DD11EB8D71100C1562A /* SNavigationController.swift */,
+				50C71DD21EB8D71100C1562A /* SUIKit.h */,
+				50C71DD31EB8D71100C1562A /* SView.swift */,
+				50C71DD41EB8D71100C1562A /* SViewController.swift */,
+				50C71DD51EB8D71100C1562A /* SViewController.xib */,
+			);
+			path = SUIKit;
+			sourceTree = "<group>";
+		};
+		50C71DCF1EB8D71100C1562A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DD01EB8D71100C1562A /* SViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		50C71DD71EB8D71100C1562A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C71E311EB8D71200C1562A /* SUIKit.framework */,
+				50C71E331EB8D71200C1562A /* SUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C71DD91EB8D71100C1562A /* SUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				50C71DDA1EB8D71100C1562A /* Info.plist */,
+				50C71DDB1EB8D71100C1562A /* SUIKitTests.swift */,
+			);
+			path = SUIKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +668,20 @@
 			mainGroup = 5025458C1EB523BC00CB680E;
 			productRefGroup = 502545961EB523BC00CB680E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 50C71D911EB8D71100C1562A /* Products */;
+					ProjectRef = 50C71D901EB8D71100C1562A /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = 50C71DC51EB8D71100C1562A /* Products */;
+					ProjectRef = 50C71DC41EB8D71100C1562A /* SConnect.xcodeproj */;
+				},
+				{
+					ProductGroup = 50C71DD71EB8D71100C1562A /* Products */;
+					ProjectRef = 50C71DD61EB8D71100C1562A /* SUIKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				502545941EB523BC00CB680E /* SModule */,
@@ -225,13 +690,98 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		50C71E211EB8D71200C1562A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 50C71E201EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E231EB8D71200C1562A /* Pods_SConnect.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_SConnect.framework;
+			remoteRef = 50C71E221EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E251EB8D71200C1562A /* Pods_SConnectTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_SConnectTests.framework;
+			remoteRef = 50C71E241EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E271EB8D71200C1562A /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 50C71E261EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E2B1EB8D71200C1562A /* SConnect.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SConnect.framework;
+			remoteRef = 50C71E2A1EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E2D1EB8D71200C1562A /* SConnectTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SConnectTests.xctest;
+			remoteRef = 50C71E2C1EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E311EB8D71200C1562A /* SUIKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SUIKit.framework;
+			remoteRef = 50C71E301EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50C71E331EB8D71200C1562A /* SUIKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SUIKitTests.xctest;
+			remoteRef = 50C71E321EB8D71200C1562A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		502545931EB523BC00CB680E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C71DDC1EB8D71100C1562A /* Podfile in Resources */,
+				50C71DFA1EB8D71100C1562A /* Pods-SConnect-acknowledgements.plist in Resources */,
+				50C71DF61EB8D71100C1562A /* Alamofire.xcconfig in Resources */,
+				50C71DF71EB8D71100C1562A /* Info.plist in Resources */,
+				50C71E191EB8D71200C1562A /* SViewController.xib in Resources */,
+				50C71E061EB8D71100C1562A /* Pods-SConnectTests.release.xcconfig in Resources */,
+				50C71DFE1EB8D71100C1562A /* Pods-SConnect.release.xcconfig in Resources */,
 				502545CA1EB526B500CB680E /* HomeStoryboard.storyboard in Resources */,
+				50C71DDD1EB8D71100C1562A /* Podfile.lock in Resources */,
+				50C71DF21EB8D71100C1562A /* LICENSE in Resources */,
+				50C71DFF1EB8D71100C1562A /* Info.plist in Resources */,
+				50C71E0B1EB8D71100C1562A /* Info.plist in Resources */,
+				50C71E041EB8D71100C1562A /* Pods-SConnectTests-resources.sh in Resources */,
+				50C71E141EB8D71200C1562A /* Info.plist in Resources */,
+				50C71E031EB8D71100C1562A /* Pods-SConnectTests-frameworks.sh in Resources */,
+				50C71DFC1EB8D71100C1562A /* Pods-SConnect-resources.sh in Resources */,
+				50C71DF11EB8D71100C1562A /* Manifest.lock in Resources */,
+				50C71DFD1EB8D71100C1562A /* Pods-SConnect.debug.xcconfig in Resources */,
+				50C71E051EB8D71100C1562A /* Pods-SConnectTests.debug.xcconfig in Resources */,
+				50C71E101EB8D71100C1562A /* SConnect.xcworkspace in Resources */,
+				50C71E1A1EB8D71200C1562A /* Info.plist in Resources */,
+				50C71E091EB8D71100C1562A /* SwiftyJSON.xcconfig in Resources */,
 				502545C21EB5251200CB680E /* HomeAssest.xcassets in Resources */,
+				50C71DF81EB8D71100C1562A /* Info.plist in Resources */,
+				50C71E011EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.plist in Resources */,
+				50C71DDE1EB8D71100C1562A /* LICENSE in Resources */,
+				50C71E111EB8D71100C1562A /* Info.plist in Resources */,
+				50C71E071EB8D71100C1562A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +799,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C71E081EB8D71100C1562A /* SwiftyJSON-dummy.m in Sources */,
+				50C71E001EB8D71100C1562A /* Pods-SConnectTests-acknowledgements.markdown in Sources */,
+				50C71DE41EB8D71100C1562A /* NetworkReachabilityManager.swift in Sources */,
+				50C71DE71EB8D71100C1562A /* Request.swift in Sources */,
+				50C71E0A1EB8D71100C1562A /* README.md in Sources */,
+				50C71DF51EB8D71100C1562A /* Alamofire-dummy.m in Sources */,
+				50C71E151EB8D71200C1562A /* SViewProtocol.swift in Sources */,
+				50C71DF01EB8D71100C1562A /* Validation.swift in Sources */,
+				50C71DF41EB8D71100C1562A /* SwiftyJSON.swift in Sources */,
+				50C71E0F1EB8D71100C1562A /* SConnectorProtocol.swift in Sources */,
+				50C71E0E1EB8D71100C1562A /* SConnectManagerProtocol.swift in Sources */,
+				50C71DE21EB8D71100C1562A /* DispatchQueue+Alamofire.swift in Sources */,
+				50C71DED1EB8D71100C1562A /* SessionManager.swift in Sources */,
+				50C71DEC1EB8D71100C1562A /* SessionDelegate.swift in Sources */,
+				50C71E021EB8D71100C1562A /* Pods-SConnectTests-dummy.m in Sources */,
+				50C71DE51EB8D71100C1562A /* Notifications.swift in Sources */,
 				502545A11EB523BC00CB680E /* SModule.xcdatamodeld in Sources */,
+				50C71DF31EB8D71100C1562A /* README.md in Sources */,
 				502545991EB523BC00CB680E /* AppDelegate.swift in Sources */,
+				50C71DEA1EB8D71100C1562A /* Result.swift in Sources */,
+				50C71DE81EB8D71100C1562A /* Response.swift in Sources */,
+				50C71DF91EB8D71100C1562A /* Pods-SConnect-acknowledgements.markdown in Sources */,
+				50C71DDF1EB8D71100C1562A /* README.md in Sources */,
+				50C71DE61EB8D71100C1562A /* ParameterEncoding.swift in Sources */,
 				502545C81EB5257B00CB680E /* HomeView.swift in Sources */,
+				50C71DEB1EB8D71100C1562A /* ServerTrustPolicy.swift in Sources */,
+				50C71E161EB8D71200C1562A /* SNavigationController.swift in Sources */,
+				50C71DFB1EB8D71100C1562A /* Pods-SConnect-dummy.m in Sources */,
+				50C71E181EB8D71200C1562A /* SViewController.swift in Sources */,
+				50C71E171EB8D71200C1562A /* SView.swift in Sources */,
+				50C71E1B1EB8D71200C1562A /* SUIKitTests.swift in Sources */,
+				50C71E121EB8D71200C1562A /* SConnectTests.swift in Sources */,
 				502545C61EB5256600CB680E /* HomeViewController.swift in Sources */,
+				50C71DEF1EB8D71100C1562A /* Timeline.swift in Sources */,
+				50C71E131EB8D71200C1562A /* README.md in Sources */,
+				50C71DEE1EB8D71100C1562A /* TaskDelegate.swift in Sources */,
+				50C71DE31EB8D71100C1562A /* MultipartFormData.swift in Sources */,
+				50C71DE01EB8D71100C1562A /* AFError.swift in Sources */,
+				50C71DE91EB8D71100C1562A /* ResponseSerialization.swift in Sources */,
+				50C71E0D1EB8D71100C1562A /* SConnectManager.swift in Sources */,
+				50C71DE11EB8D71100C1562A /* Alamofire.swift in Sources */,
+				50C71E0C1EB8D71100C1562A /* SampleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
