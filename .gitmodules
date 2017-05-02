@@ -1,0 +1,3 @@
+[submodule "SUIKit"]
+	path = SUIKit
+	url = https://github.com/kansujiya/SUIKit.git
