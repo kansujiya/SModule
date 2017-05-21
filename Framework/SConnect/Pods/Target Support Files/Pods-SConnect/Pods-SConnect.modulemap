@@ -1,6 +1,0 @@
-framework module Pods_SConnect {
-  umbrella header "Pods-SConnect-umbrella.h"
-
-  export *
-  module * { export * }
-}
